@@ -6,8 +6,8 @@ import mysql.connector
 def get_data():
     conn = mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="Hannah18@",
+        user="username",
+        password="password",
         database="crime_data_api"
     )
     query = "SELECT * FROM crimes"
