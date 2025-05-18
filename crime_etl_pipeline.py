@@ -6,8 +6,8 @@ from mysql.connector import Error
 # --- Configuration ---
 DB_CONFIG = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'Hannah18@',
+    'user': 'username',
+    'password': 'passoword',
     'database': 'crime_data_api'
 }
 
